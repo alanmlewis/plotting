@@ -16,8 +16,8 @@ from sys import argv
 fit = False
 
 # Define the form of the function to be fit to the data (default: linear a*x+b)
-def func(x,a,b):
-    return a*x+b
+def func(x,m,c):
+    return m*x+c
     
 # For a simple exponential fit (delete before giving to students?)
 #def func(x,a,b):
